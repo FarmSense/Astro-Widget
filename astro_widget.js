@@ -135,7 +135,7 @@
 						var date = Number(dt)/1000|0;
 					
 						// the url of the script we're calling
-						var url = "http://dev.api.farmsense.net/v1/daylengths/?d="+date+"&lat="+lat+"&lon="+lon+"&tz="+tz.replace('/','%2F')+"&callback=window.randName.f.dayLength.parseRequest";
+						var url = "http://api.farmsense.net/v1/daylengths/?d="+date+"&lat="+lat+"&lon="+lon+"&tz="+tz.replace('/','%2F')+"&callback=window.randName.f.dayLength.parseRequest";
 						
 						//alert(url);
 						
@@ -201,7 +201,7 @@
 						var date = Number(dt)/1000|0;
 					
 						// the url of the script we're calling
-						var url = "http://dev.api.farmsense.net/v1/moonphases/?d="+date+"&callback=window.randName.f.moonPhase.parseRequest";
+						var url = "http://api.farmsense.net/v1/moonphases/?d="+date+"&callback=window.randName.f.moonPhase.parseRequest";
 						
 						//alert(url);
 						
